@@ -1,0 +1,171 @@
+{
+    "timeLimit": 100,
+    "characters": [
+        {
+            "name": "Brian",
+            "class": "investigator",
+            "position": [9, 8]
+        },
+        {
+            "name": "Box Box",
+            "class": "suspect",
+            "position": [10, 13]
+        },
+        {
+            "name": "Annie",
+            "class": "suspect",
+            "position": [11, 14]
+        },
+        {
+            "name": "Lily",
+            "class": "suspect",
+            "position": [5, 15]
+        },
+        {
+            "name": "Pokimane",
+            "class": "suspect",
+            "position": [4, 14]
+        },
+        {
+            "name": "Toast",
+            "class": "suspect",
+            "position": [5, 13]
+        },
+        {
+            "name": "Fed",
+            "class": "victim",
+            "position": [9, 4]
+        }
+    ],
+    "roles": [
+        {
+            "name": "role1",
+            "dialog": [
+                [
+                    "Who was you with when the crime took place?",
+                    "I was with {role2}"
+                ]
+            ]
+        },
+        {
+            "name": "role2",
+            "dialog": [
+                [
+                    "Who was you with when the crime took place?",
+                    "I was with {role1}"
+                ]
+            ]
+        },
+        {
+            "name": "role3",
+            "dialog": [
+                [
+                    "Who was you with when the crime took place?",
+                    "I was with {role4}"
+                ]
+            ]
+        },
+        {
+            "name": "role4",
+            "dialog": [
+                [
+                    "Who was you with when the crime took place?",
+                    "I was with {role3}"
+                ]
+            ]
+        },
+        {
+            "name": "role5",
+            "dialog": [
+                [
+                    "Who was you with when the crime took place?",
+                    "I was with {role1}"
+                ]
+            ],
+            "criminal": true
+        }
+    ],
+    "map": {
+        "doors": [
+            [8, 5, 9, 5],
+            [7, 6, 7, 7],
+            [8, 9, 8, 10],
+            [12, 11, 14, 11],
+            [11, 8, 13, 8],
+            [17, 3, 18, 3],
+            [17, 11, 18, 11]
+        ],
+        "areas": [
+            {
+                "name": "first bedroom",
+                "shape": [0, 8, 0, 16, 8, 16, 8, 8],
+                "description": "This is the first bedroom",
+                "items": [
+                    {
+                        "name": "bed",
+                        "description": "a comfortable bed"
+                    },
+                    {
+                        "name": "gun",
+                        "description": "an unloaded gun",
+                        "pickable": true
+                    }
+                ]
+            },
+            {
+                "name": "living room",
+                "shape": [5, 0, 5, 5, 10, 5, 10, 0],
+                "description": "This is the living room",
+                "items": [
+                    {
+                        "name": "television",
+                        "description": "a modern television"
+                    },
+                    {
+                        "name": "couch",
+                        "description": "a comfortable couch"
+                    }
+                ]
+            },
+            {
+                "name": "second bedroom",
+                "shape": [8, 11, 8, 16, 16, 16, 16, 11],
+                "description": "This is the second bedroom",
+                "items": [
+                    {
+                        "name": "bed",
+                        "description": "a comfortable bed"
+                    }
+                ]
+            },
+            {
+                "name": "first bathroom",
+                "shape": [16, 11, 16, 16, 19, 16, 19, 11],
+                "description": "This is the first bathroom"
+            },
+            {
+                "name": "second bathroom",
+                "shape": [10, 0, 10, 3, 19, 3, 19, 0],
+                "description": "This is the second bathroom"
+            },
+            {
+                "name": "kitchen",
+                "shape": [10, 3, 10, 8, 19, 8, 19, 3],
+                "description": "This is the kitchen",
+                "items": [
+                    {
+                        "name": "knife",
+                        "description": "there is a blood stain on this knife",
+                        "pickable": true,
+                        "weapon": true
+                    }
+                ]
+            },
+            {
+                "name": "hall",
+                "shape": [7, 5, 7, 8, 8, 8, 8, 11, 19, 11, 19, 8, 10, 8, 10, 5],
+                "description": "This is the hall"
+            }
+        ]
+    }
+}

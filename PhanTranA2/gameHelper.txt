@@ -1,0 +1,46 @@
+Introduction_Section
+Welcome to our text-based adventure
+===================================
+Seven people, supposedly all friends, gather together to enjoy the evening. Then, you was busy and need to go out for few hours. When you cameback, one of them was dead!
+What is it that drives one person to murder another? Is it from a sense of betrayal, jealousy or just plain spite? Does trying to conceal a deception, double-cross or infidelity force someone to take desperate measures? Will the old saying, "money is the root of all evil", hold true?
+Who knows ... but then, you are an up and coming Detective out to solve crime � specifically, homicide. That's your job. You pit your wits against people who think they can get away with murder every day. You will have to search the house and interview each suspect to find out "who is the criminal?" and "what is his weapon used to commit the crime?"
+The murderer isn't so patient. He/she left a message at the crime scene, said "You are the next one!!". You have to do it quickly, otherwise another friend of yours will fall into his/her hand before you know it.
+====================================
+End_Section
+
+Instruction_Section
+================================
+Instruction
+---------------------
+---------------------
+
+### Movement command ###
+	w: going up
+	s: going down
+	a: going left
+	d: going right
+	----> You use these movement command to move one step in each direction.
+	----> Each move consumes one second.
+	----> Memorize these commands.
+
+### Map ###
+	- Your LOCATION will be identified by the FIRST letter of your name in CAPITAL on the map.
+	- Location of other suspects will be identified by first letter of their name in lower case on the map.
+	- You can only see the suspects that in the same area with you.
+
+### Game interaction ###
+	- Walk right next to someone to ask them questions.
+	- Enter an area you can discover what is in there.
+	- You can examing each item to find hidden infomation.
+	- You can try to solve the crime at any moment during the game.
+
+### End game ###
+The game will end if:
+	- Your guess about the crime is wrong.
+	- Timer reaches zero.
+	- You choose to quit game
+
+---- Good Luck! Enjoy your game -------
+
+================================
+End_Section
